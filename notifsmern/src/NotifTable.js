@@ -1,4 +1,6 @@
 import React from 'react';
+// import NotifForm from './NotifForm'
+import data from './data/notifdata';
 import './css/table-style.css';
 
 const tableHeaders = Object.keys(data[0]);

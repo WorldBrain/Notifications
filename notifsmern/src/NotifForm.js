@@ -1,7 +1,7 @@
 import React from 'react';
-// import './css/form-style.css';
+import './css/form-style.css';
 
-class NotifForm extends Component {
+class NotifForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = { title: '', text:''};
@@ -33,9 +33,9 @@ class NotifForm extends Component {
           placeholder='Notification message'
           value={ this.state.body }
           onChange={ this.handleBodyChange } />
-        <submit
+        <input
           type='submit'
-          value= 'Post' />
+          value= 'Submit' />
       </form>
     )
   }
