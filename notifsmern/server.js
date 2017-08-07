@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 
 //set up express app
 const app = express();
+const route = express.Router();
 
 //connect to mongodb
 mongoose.connect('mongodb://localhost/wbnotification');
