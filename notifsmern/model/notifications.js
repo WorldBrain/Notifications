@@ -1,6 +1,8 @@
 const mongoose = require('mongoose'); //node package to help interact with mongodb
 const Schema = mongoose.Schema;
 
+
+//create new instance of mongoose schema, which takes object and shows in database entries
 const NotificationSchema = new Schema ({
   number: {
     type: Number,
@@ -28,5 +30,5 @@ const NotificationSchema = new Schema ({
 //create model Name
 const Notification = mongoose.model('notification', NotificationSchema);
 
-//export model to be used in webapp
-module.exports = Notification;
+//export model to be used by server.js and api.js
+module.exports = mongoose.model('Notification', NotificationSchema);
