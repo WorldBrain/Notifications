@@ -1,7 +1,29 @@
 form {
     margin: 10px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /*align-items: flex-start;*/
+    font-family: helvetica, sans-serif;
+    text-align: left;
+    padding: 8px;
   }
+
+  #textboxid {
+    height: 20px;
+    width: auto;
+    font-size: 14pt;
+    border: 1px solid #dddddd;
+    padding:inherit;
+
+  }
+
+  #bodytextid {
+    height: 20px;
+    width: 500px;
+    font-size: 14pt;
+    border: 1px solid #dddddd;
+    padding: inherit;
+  }
+
+  
