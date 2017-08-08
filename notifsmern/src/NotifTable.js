@@ -1,5 +1,5 @@
 import React from 'react';
-import notedata from './data/notedata';
+import data from './data/data';
 // import data from 'https://jsonplaceholder.typicode.com/posts';
 import './css/table-style.css';
 
@@ -8,7 +8,7 @@ import './css/table-style.css';
 
   //console.log(data);
 
-const tableHeaders = Object.keys(notedata[0]);
+const tableHeaders = Object.keys(data[0]);
 
 const TableHead = () => (
   <tr>
@@ -21,7 +21,7 @@ class TableRow extends React.Component {
   render() {
     return (
       <tbody>
-        {notedata.map(row => (
+        {data.map(row => (
           <tr key={row.title}>
             <td>{row.id}</td>
             <td>{row.title}</td>
