@@ -24,6 +24,17 @@ app.use(function(err,req,res,next){
   res.status(422).send({error:err.message});
 })
 
+//Set headers to allow CORS to prevent CORS errors
+app.use(function(req,res,next) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Access-Control-Allow-Headers, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers');
+
+  //remove cacheing so we get most recent notifications
+  res.setHeader('Cache-Control', 'no-cache');
+})
+
 // TODO add CORS headers
 
 app.listen(process.env.port||4001,function(){
