@@ -1,9 +1,14 @@
 import React from 'react';
-// import NotifForm from './NotifForm'
-import data from './data/notifdata';
+import notedata from './data/notedata';
+// import data from 'https://jsonplaceholder.typicode.com/posts';
 import './css/table-style.css';
 
-const tableHeaders = Object.keys(data[0]);
+//var jsons = require ('http://localhost:4001/api/notifications');
+//console.log("jsons");
+
+  //console.log(data);
+
+const tableHeaders = Object.keys(notedata[0]);
 
 const TableHead = () => (
   <tr>
@@ -16,7 +21,7 @@ class TableRow extends React.Component {
   render() {
     return (
       <tbody>
-        {data.map(row => (
+        {notedata.map(row => (
           <tr key={row.title}>
             <td>{row.id}</td>
             <td>{row.title}</td>

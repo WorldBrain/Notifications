@@ -17,7 +17,7 @@ class NotifForm extends React.Component {
   }
   handleSubmit(e) {
     e.preventDefault();
-    console.log('${this.state.title} and "${this.state.body}"')
+    // console.log('${this.state.title} and "${this.state.body}"')
   }
 
   render(){
@@ -25,11 +25,13 @@ class NotifForm extends React.Component {
       <form onSubmit={this.handleSubmit}>
         <input
           type='text'
+          id='textboxid'
           placeholder='Notification Title'
           value={this.state.title}
           onChange={this.handleTitleChange} />
         <input
           type='text'
+          id='bodytextid'
           placeholder='Notification message'
           value={ this.state.body }
           onChange={ this.handleBodyChange } />

@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+// import './index.css';
+import NotifForm from './NotifForm';
+import Table from './NotifTable';
+// import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(<Table />, document.getElementById('root1'));
+
+ReactDOM.render(<NotifForm />, document.getElementById('root2'));
