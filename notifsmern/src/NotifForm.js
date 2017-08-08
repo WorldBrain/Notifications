@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './css/form-style.css';
 
 class NotifForm extends React.Component {

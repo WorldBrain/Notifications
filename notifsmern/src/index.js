@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import data from './data/notifdata';
 import NotifForm from './NotifForm';
 import NotifTable from './NotifTable';
-import NotifList from './NotifList';
+// import NotifList from './NotifList';
 
 
 ReactDOM.render(<NotifForm />,
@@ -16,6 +16,6 @@ ReactDOM.render(<NotifTable data={data}/>,
    document.getElementById('root2')
  );
 
- ReactDOM.render(<NotifList />,
-  document.getElementById('root3')
- );
+ // ReactDOM.render(<NotifList />,
+ //  document.getElementById('root3')
+ // );

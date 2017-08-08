@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import Notification from './notification';
+// import Notification from './notification';
 
 class NotifList extends React.Component {
   render() {
