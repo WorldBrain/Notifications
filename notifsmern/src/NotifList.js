@@ -1,4 +1,5 @@
 import React from 'react';
+import './css/list-style.css';
 // import data from './data/data';
 
 class List extends React.Component {
@@ -28,9 +29,10 @@ class List extends React.Component {
 
           {results && results.map(result => //if results exist, then map results
             <div>
+            <h3 key={result.date}>{result.date}</h3>
             <h1 key={result.title}>{result.title}</h1>
             <h3 key={result.id}>{result.id}</h3>
-            <h3 key={result.body}>{result.body}</h3>
+            <h3 className="bodytext" key={result.body}>{result.body}</h3>
           </div>)}
 
           {/* {items.map(item => {item.id}>{item.title}: {item.body} {item.date} {item.views})} */}
