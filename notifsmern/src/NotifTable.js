@@ -1,5 +1,7 @@
 import React from 'react';
 import data from './data/data';
+
+// import NotifForm from './NotifForm'
 // import data from 'https://jsonplaceholder.typicode.com/posts';
 import './css/table-style.css';
 
@@ -36,9 +38,7 @@ class TableRow extends React.Component {
 }
 
 class Table extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+
   render(){
     return (
       <div>
