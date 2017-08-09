@@ -1,12 +1,20 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-
-//TODO import React, ReactDOM, components here?
+const cors = require('cors');
 
 //set up express app
 const app = express();
 const route = express.Router();
+
+// enable cors
+const corsOptions = {
+  origin: '*', //made have to change after deployment, right now allowing all origins
+  methods: ['GET', 'POST']
+};
+
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions))
 
 //connect to mongodb
 mongoose.connect('mongodb://localhost/wbnotification');
@@ -24,18 +32,7 @@ app.use(function(err,req,res,next){
   res.status(422).send({error:err.message});
 })
 
-//Set headers to allow CORS to prevent CORS errors
-app.use(function(req,res,next) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Credentials', 'true');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS, POST, PUT, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'Access-Control-Allow-Headers, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers');
 
-  //remove cacheing so we get most recent notifications
-  res.setHeader('Cache-Control', 'no-cache');
-})
-
-// TODO add CORS headers
 
 app.listen(process.env.port||4001,function(){
   console.log('now listening for requests');
