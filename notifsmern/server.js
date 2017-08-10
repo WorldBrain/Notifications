@@ -13,6 +13,8 @@ const corsOptions = {
   methods: ['GET', 'POST']
 };
 
+app.use(express.static('./public'));
+
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions))
 
