@@ -9,6 +9,7 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+      <script type="text/javascript" src="form.js"></script>
 
     <title>Worldbrain Notifications</title>
   </head>
@@ -17,6 +18,21 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root2"></div>
+    <br / >
+    <form action="/my-handling-form-page" method="post">
+      <div>
+        <label for="title">Notification Title:</label>
+        <input type="text" id="name" name="notif_name">
+      </div>
+      <div>
+        <label for="body">Notification Message</label>
+        <textarea id="body" name="notif_body"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
     <br />
     <div id="root1"></div>
     <div id="root3"></div>
