@@ -23,18 +23,20 @@ class NotifForm extends React.Component {
   render(){
     return (
       <form onSubmit={this.handleSubmit}>
+        <div>
         <input
           type='text'
           id='textboxid'
           placeholder='Notification Title'
           value={this.state.title}
           onChange={this.handleTitleChange} />
-        <input
-          type='text'
+        </div>
+        <textarea
           id='bodytextid'
-          placeholder='Notification message'
+          placeholder='Notification Message'
           value={ this.state.body }
-          onChange={ this.handleBodyChange } />
+          onChange={ this.handleBodyChange }>
+        </textarea>
         <input
           type='submit'
           value= 'Submit' />
