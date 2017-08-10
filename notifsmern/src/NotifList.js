@@ -10,8 +10,7 @@ class List extends React.Component {
   componentDidMount(){
     //calls fetch function passing in url of api
     fetch('http://localhost:4001/api/notifications', {mode:'cors'})
-    //handling response for getting API data
-    .then( response => response.json())
+    .then( response => response.json()) //transform data into json
     .then( results => this.setState(() => ({ results })))
     .catch(function(error){
       console.log(error);
