@@ -5,11 +5,12 @@ notifForm.addEventListener('submit', function(event) {
   var headers = new Headers(); //tell headers we expect JSON back
   headers.set('Accept', 'application/json');
 
-  var notifForm = new NotifForm();//format subimitted fields
+  var notifForm = new NotifForm();//loop through input items and appends values
   for (var i = 0; i < notifForm.length; ++i) {
     notifForm.append(notifForm[i].name, notifForm[i].value);
   }
 
+  //give fetch url and form data options
   var url = 'http://localhost:4001/api/notifications';
   var fetchOptions = {
     method: 'POST',
@@ -19,7 +20,7 @@ notifForm.addEventListener('submit', function(event) {
 
   var responsePromise = fetch(url, fetchOptions);
 
-  responsePromise
+  responsePromise //convert response into JSON object
   .then(function(response){
     return response.json();
   })
