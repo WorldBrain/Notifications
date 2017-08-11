@@ -11,12 +11,12 @@
 //   }
 //
 //   //give fetch url and form data options
-//   var url = 'http://localhost:4001/api/notifications';
+//   var url = 'http://localhost:4002/api/notifications';
 //   var fetchOptions = {
 //     method: 'POST',
-//     headers: headers,
+//     headers
 //     body: formData,
-//     mode: 'cors' //not sure if this is needed?
+//     // mode: 'cors' //not sure if this is needed?
 //   };
 //
 //   var responsePromise = fetch(url, fetchOptions);
@@ -30,12 +30,14 @@
 //     document.getElementById('results').innerText =
 //     JSON.stringify(jsonData);
 //   });
-//
 //   event.preventDefault();
+//
 // });
 
+event.preventDefault();
+
 function createNotif (opts) {
-  fetch('http://localhost:4001/api/notifications', {
+  fetch('http://localhost:4002/api/notifications', {
     method: 'post',
     body: JSON.stringify(opts)
   }).then(function(response) {
