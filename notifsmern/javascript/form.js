@@ -34,33 +34,45 @@
 //
 // });
 
-event.preventDefault();
+//Access form element
+var form = document.getElementById('notif-form');
 
-function createNotif (opts) {
-  fetch('http://localhost:4002/api/notifications', {
-    method: 'post',
-    body: JSON.stringify(opts)
-  }).then(function(response) {
-    return response.json();
-  }).then(function(data) {
-    console.log('created Notif:', data.html_url)
-  });
-}
-
-function submitNotif() {
-  var content = document.querySelector('textarea').value;
-  if (content) {
-    createNotif({
-      description: 'Fetch API POST',
-      public: true,
-    });
-  } else {
-    console.log('please enter message');
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+  var formData = {
+    title: document.getElementById('title').value
+    body: document.getElementById('body').value
   }
-}
 
-var submitBtn = document.querySelector('button');
-submitBtn.addEventListener('click', submitNotif);
+  function createNotif() {
+    fetch('http://localhost:4002/api/notifications', {
+      method: 'post',
+      body: JSON.stringify(formData),
+      headers: {
+        'accept': 'application/json',
+        'Content-Type': 'application/json'
+      }
+    }).then(function(response) {
+      return response.json() {
+        console.log('parsed json', json);
+      }
+    }).catch(function(err) {
+      console.log('create json failed', err);
+    });
+  }
+})
+//   function submitNotif() {
+//     var content = document.querySelector('textarea').value;
+//     if (content) {
+//       createNotif({
+//         description: 'Fetch API POST',
+//         public: true,
+//       });
+//     } else {
+//       console.log('please enter message');
+//     }
+//   }
+// })
 
 
 
