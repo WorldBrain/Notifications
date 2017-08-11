@@ -4,7 +4,7 @@ import './css/form-style.css';
 class NotifForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { title: '', text:''};
+    this.state = { title: '', body:''};
     this.handleTitleChange = this.handleTitleChange.bind(this);
     this.handleBodyChange = this.handleBodyChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -17,6 +17,31 @@ class NotifForm extends React.Component {
   }
   handleSubmit(e) {
     e.preventDefault();
+    // let reqBody = {
+    //   title: this.refs.title.value,
+    //   body: this.refs.body.value,
+    // };
+
+    fetch("http://localhost:4002/api/notifications", {
+      method: "POST",
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        title: this.state.title,
+        body: this.state.body,
+      })
+    })
+      .then((res) => {
+        if (res.ok) {
+          return res.json();
+        } else {
+          throw new Error ('fetch problems');
+        }
+      }).then((json) => {
+        console.log(json);
+      })
     // console.log('${this.state.title} and "${this.state.body}"')
   }
 
@@ -29,19 +54,20 @@ class NotifForm extends React.Component {
           id='textboxid'
           placeholder='Notification Title'
           value={this.state.title}
-          onChange={this.handleTitleChange} />
+          onChange={this.handleTitleChange.bind(this)} />
         </div>
         <div>
         <textarea
           id='bodytextid'
           placeholder='Notification Message'
           value={ this.state.body }
-          onChange={ this.handleBodyChange }>
+          onChange={ this.handleBodyChange.bind(this) }>
         </textarea>
         </div>
         <div>
-        <button type='submit'
-          value= 'Submit'> Submit
+        <button type='button'
+          label= 'Submit'
+          onClick={this.onSubmit}>Submit
         </button>
         </div>
       </form>

@@ -10,9 +10,11 @@ router.get('/notifications',function(req,res,next){
 
 router.post('/notifications',function(req,res,next){
   console.log('req');
+  console.log('req.method'); //"POST"
   var notification = new Notification();
   notification.title = req.body.title;
   notification.body = req.body.body;
+  res.json({message:'json added'});
   //
   // notification.save(function(err) {
   //   if (err)
