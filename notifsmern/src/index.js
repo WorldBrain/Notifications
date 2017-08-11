@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
 import NotifForm from './NotifForm';
 import Table from './NotifTable';
 import List from './NotifList';
