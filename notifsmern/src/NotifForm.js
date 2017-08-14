@@ -40,6 +40,9 @@ class NotifForm extends React.Component {
           throw new Error ('fetch problems');
         }
       }).then((json) => {
+        console.log(this.state.title);
+        console.log(this.state.body);
+
         console.log(json);
       })
     // console.log('${this.state.title} and "${this.state.body}"')
@@ -67,7 +70,7 @@ class NotifForm extends React.Component {
         <div>
         <button type='button'
           label= 'Submit'
-          onClick={this.onSubmit}>Submit
+          onClick={this.handleSubmit}>Submit
         </button>
         </div>
       </form>
