@@ -4,7 +4,6 @@ const Schema = mongoose.Schema;
 const NotificationSchema = new Schema ({
   number: {
     type: Number,
-    required: [true, 'Notification number in chronological order']
   },
   title: {
     type: String,
