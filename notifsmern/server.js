@@ -24,7 +24,6 @@ mongoose.Promise = global.Promise;
 
 //use body-parser middleware to look for JSON data in request body
 app.use(bodyParser.json());
-// app.use(bodyParser.json());
 
 //initialize routes
 app.use('/api', require('./routes/api'));
