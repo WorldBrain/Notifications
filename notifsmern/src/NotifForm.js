@@ -17,10 +17,7 @@ class NotifForm extends React.Component {
   }
   handleSubmit(e) {
     e.preventDefault();
-    // let reqBody = {
-    //   title: this.refs.title.value,
-    //   body: this.refs.body.value,
-    // };
+    alert('Your notification was submitted: ' + this.state.title);
 
     fetch("http://localhost:4002/api/notifications", {
       method: "POST",
