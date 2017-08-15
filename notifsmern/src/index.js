@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NotifForm from './NotifForm';
+import NotifView from './NotifView';
 // import Table from './NotifTable';
-import List from './NotifList';
 // import registerServiceWorker from './registerServiceWorker';
-// 
+//
 // ReactDOM.render(<Table />, document.getElementById('root1'));
 
-ReactDOM.render(<NotifForm />, document.getElementById('root2'));
-
-ReactDOM.render(<List />, document.getElementById('root3'));
+ReactDOM.render(<NotifView />, document.getElementById('root2'));
