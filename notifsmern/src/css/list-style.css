@@ -1,16 +1,18 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+div {
+  width: 500 px;
+  padding: 1em;
 }
 
-div .body {
-	display: none;
-	background-color: blue;
-  padding: 8px;
+.list-style {
+  background-color: #D3E2EE;
+  border-radius: 1em;
+  max-width: 1000px;
 }
 
-#bodytext {
-  padding: 8px;
-  margin: 18px;
+h1 {
+  font: 40px Helvetica, Verdana, sans-serif;
+}
+
+h3 {
+  font: 20px Verdana, sans-serif;
 }

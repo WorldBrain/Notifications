@@ -1,13 +1,14 @@
 form {
   margin: 0 auto;
-  width: 400px;
-  padding: 1em;
+  padding: 2em;
   border: 1px solid #ccc;
   border-radius: 1em;
 }
 
 form div, div {
   margin-top: 1em;
+  max-width: 1000px;
+  min-width: 500px;
 }
 
 label {
@@ -17,8 +18,7 @@ label {
 }
 
 input, textarea {
-  font: 1em sans-serif;
-  width: 400px;
+  font: 20px Helvetica, Verdana, sans-serif;
   box-sizing: border-box;
   border: 1px solid #999;
 }
@@ -31,6 +31,8 @@ input:focus, textarea:focus {
 textarea {
   vertical-align: top;
   height: 5em;
+  width: 700px;
+
 }
 
 .button {
