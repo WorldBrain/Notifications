@@ -1,5 +1,8 @@
 # notifications 
-The Notifications Center is the page for Worldbrain administrators to create and send new notifications to their users.  Examples of notifications include system udpates, security notices and general notices to Worldbrain users.  
+The Notifications Center is the page for Worldbrain administrators to create and send new notifications to their users.  Examples of notifications include system udpates, security notices and general notices to Worldbrain users.  This is a MERN stack application (MongoDB/Express/React/Node.js).  
+
+## Getting Started  
+To get started with the Notifications webapp, please clone and follow the instructions for installation and command lines to start up the webapp below:  
 
 ## Installing
 You should have Node and NPM installed   
@@ -16,6 +19,11 @@ Mongoose: provides methods and schema to interact with Mongodb
 
 Install with:  
 npm i express body-parser nodeman mongoose --save  
+
+## Testing routes
+To interact with MongoDB, you can either use Robomongo or Studio 3t (download whichever is most convenient).  It should automatically connect with mongo and you can create view the Notifications collection
+
+To test the routes specified in src/api.js, download Postman.  You can test all of the CRUD routes and create new notifications via Postman.
 
 ## Running the web-app
 To make sure server is up and running: npm start  
