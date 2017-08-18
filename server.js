@@ -13,13 +13,17 @@ const corsOptions = {
   methods: ['GET', 'POST']
 };
 
+//setting mongodb URI
+var mongouri = process.env.MONGO_URI
+  || 'mongodb://localhost/wbnotification'; // TODO remove me
+
 app.use(express.static('./public'));
 
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions))
 
 //connect to mongodb
-mongoose.connect('mongodb://localhost/wbnotification');
+mongoose.connect(mongouri);
 mongoose.Promise = global.Promise;
 
 //use body-parser middleware to look for JSON data in request body
