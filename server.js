@@ -14,17 +14,11 @@ const corsOptions = {
 };
 
 //setting mongodb URI
-var mongouri = process.env.MONGO_URI;
-  || 'mongodb://heroku_ffc7w5nh:52aral1e7d1j0o8qkalh4059sj@ds023523.mlab.com:23523/heroku_ffc7w5nh'; // TODO remove me
+var mongouri = process.env.MONGOLAB_URI
+  || 'mongodb://localhost/wbnotification'; // TODO remove me
 
 // TODO run `heroku config:set MONGO_URI=mongodb://something.`mlab`
 // after the db has been created
-
-mongoClient.connect(MONGO_URI, function(err, database) {
-  if (err) {
-    process.exit(1);
-  }
-})
 
 app.use(express.static('./public'));
 
