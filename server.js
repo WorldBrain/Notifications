@@ -14,8 +14,8 @@ const corsOptions = {
 };
 
 //setting mongodb URI
-var mongouri = process.env.MONGO_URI
-  || 'mongodb://localhost/wbnotification'; // TODO remove me
+var mongouri = process.env.MONGOLAB_URI;
+  || 'mongodb://rgsoc:rgsoc123@ds153003.mlab.com:53003/wbnotifications'; // TODO remove me
 
 // TODO run `heroku config:set MONGO_URI=mongodb://something.`mlab`
 // after the db has been created
@@ -26,8 +26,8 @@ app.use(cors(corsOptions));
 app.options('*', cors(corsOptions))
 
 //connect to mongodb
-mongoose.connect(mongouri);
 mongoose.Promise = global.Promise;
+mongoose.connect(mongouri);
 
 //use body-parser middleware to look for JSON data in request body
 app.use(bodyParser.json());
