@@ -27,5 +27,5 @@ To test the routes specified in src/api.js, download Postman.  You can test all 
 
 ## Running the web-app
 To make sure server is up and running: npm start  
-To run the react-app: npm start run-dev  
+To run the react-app: npm run start-dev
 To run mongodb: sudo service mongodb start  
