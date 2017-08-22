@@ -27,7 +27,7 @@ var mongouri = "mongodb://rgsoc:rgsoc123@ds153003.mlab.com:53003/wbnotifications
 // TODO run `heroku config:set MONGO_URI=mongodb://something.`mlab`
 // after the db has been created
 
-db = mongoose.connect(mongouri;
+db = mongoose.connect(mongouri);
 
 app.use(express.static('./public'));
 
