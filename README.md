@@ -10,6 +10,8 @@ node -v (to check node version)
 
 You should also have Mongdb Community Edition installed https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/ (Ubuntu version)
 
+npm install mongodb --save
+
 
 This app uses the following dependencies:
 Express: provides a framework to set up our Node.js server  
