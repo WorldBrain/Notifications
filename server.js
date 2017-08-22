@@ -26,8 +26,8 @@ app.use(cors(corsOptions));
 app.options('*', cors(corsOptions))
 
 //connect to mongodb
-mongoose.Promise = global.Promise;
 mongoose.connect(mongouri);
+mongoose.Promise = global.Promise;
 
 //use body-parser middleware to look for JSON data in request body
 app.use(bodyParser.json());
