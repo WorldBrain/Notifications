@@ -24,35 +24,21 @@ var mongouri = "mongodb://rgsoc:rgsoc123@ds153003.mlab.com:53003/wbnotifications
 // var mongouri = process.env.MONGO_URI
 //   || 'mongodb://localhost/wbnotification'; // TODO remove me
 
-
-
-// db = mongoose.connect(mongouri);
-
 app.use(express.static('./public'));
 
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions))
 
 // use connect method to connect to server
-mongoose.connect(mongouri, function (err, db) {
+mongoose.connect(mongouri, function (err, res) {
   if (err) {
     console.log('unable to connect to mongodb server', err);
   } else {
     console.log('connection established to', url);
-
-    db.close();
   }
 });
-mongoose.Promise = global.Promise;
 
-// db.on('error', console.error.bind(console, 'connection error:'));
-// db.once('open', function callback () {
-//
-//   mongoose.connection.db.close(function (err) {
-//     if(err) throw err;
-//   });
-//
-// }),
+mongoose.Promise = global.Promise;
 
 //use body-parser middleware to look for JSON data in request body
 app.use(bodyParser.json());
