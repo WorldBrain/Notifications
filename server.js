@@ -24,8 +24,7 @@ var mongouri = "mongodb://rgsoc:rgsoc123@ds153003.mlab.com:53003/wbnotifications
 // var mongouri = process.env.MONGO_URI
 //   || 'mongodb://localhost/wbnotification'; // TODO remove me
 
-// TODO run `heroku config:set MONGO_URI=mongodb://something.`mlab`
-// after the db has been created
+
 
 // db = mongoose.connect(mongouri);
 
@@ -34,9 +33,16 @@ app.use(express.static('./public'));
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions))
 
-//connect to mongodb
-// mongoose.connect(mongouri, options);
-mongoose.connect(mongouri);
+// use connect method to connect to server
+mongoose.connect(mongouri, function (err, db) {
+  if (err) {
+    console.log('unable to connect to mongodb server', err);
+  } else {
+    console.log('connection established to', url);
+
+    db.close();
+  }
+});
 mongoose.Promise = global.Promise;
 
 // db.on('error', console.error.bind(console, 'connection error:'));
@@ -61,7 +67,7 @@ app.use(function(err,req,res,next){
 })
 
 
-
+//initialize the app
 app.listen(process.env.port||4002,function(){
   console.log('now listening for requests');
 });
