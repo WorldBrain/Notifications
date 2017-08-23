@@ -6,7 +6,7 @@ export default class NotifView extends React.Component {
   constructor(props) {
     super(props);
     this.state = { title: '', body:'', notification: [] };
-  }
+  } // NotifView is parents component that defines state.  State can be changed by event firing, and updated/changed data is passed down via props to nested components
 
   componentDidMount() {
     //calls fetch function passing in url of api
@@ -17,12 +17,13 @@ export default class NotifView extends React.Component {
   }
 
   submit(e) {
+      // upon event firing, the component's state will be changed.  this.setState passes in properties that will be changed.
       this.setState(({ title, body, notifications }) => {
         return {
           title: '',
           body: '',
           notifications: [{ title, body, date: (new Date()).toISOString() }].concat(notifications),
-        };
+        }; 
       });
 
       e.preventDefault();
