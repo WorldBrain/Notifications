@@ -14,8 +14,10 @@ const corsOptions = {
 };
 
 //setting mongodb URI
-var mongouri = process.env.MONGO_URI
-  || 'mongodb://localhost/wbnotification'; // TODO remove me
+
+var mongouri = 'mongodb://rgsoc:rgsoc123@ds153003.mlab.com:53003/wbnotifications';
+// var mongouri = process.env.MONGO_URI
+//   || 'mongodb://localhost/wbnotification'; // TODO remove me
 
 // TODO run `heroku config:set MONGO_URI=mongodb://something.`mlab`
 // after the db has been created

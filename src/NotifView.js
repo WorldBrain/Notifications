@@ -8,6 +8,8 @@ export default class NotifView extends React.Component {
     this.state = { title: '', body:'', notification: [] };
   }
 
+  // const api_url = process.env.API_URL;
+
   componentDidMount() {
     //calls fetch function passing in url of api
     fetch('http://localhost:4002/api/notifications', {mode:'cors'})
@@ -28,7 +30,7 @@ export default class NotifView extends React.Component {
       e.preventDefault();
       e.target.reset();
 
-      fetch("http://localhost:4002/api/notifications", {
+      fetch('http://localhost:4002/api/notifications', {
         method: "POST",
         headers: {
           'Accept': 'application/json',
