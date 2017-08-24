@@ -19,7 +19,7 @@ const corsOptions = {
 
 
 //setting mongodb URI recieved from mLab
-var mongouri = "mongodb://rgsoc:rgsoc123@ds153003.mlab.com:53003/wbnotifications";
+var mongouri = process.env.MONGO_URI;
 
 // var mongouri = process.env.MONGO_URI
 //   || 'mongodb://localhost/wbnotification'; // TODO remove me
@@ -42,11 +42,9 @@ mongoose.Promise = global.Promise;
 
 //use body-parser middleware to look for JSON data in request body
 app.use(bodyParser.json());
-  console.log('meow');
 
 //initialize routes
 app.use('/api', require('./routes/api'));
-  console.log('ruff');
 
 //error handling middleware
 app.use(function(err,req,res,next){
@@ -54,7 +52,7 @@ app.use(function(err,req,res,next){
   res.status(422).send({error:err.message});
 });
 
-  console.log('bla');
+console.log('middleware works');
 
 //initialize the app
 app.listen(process.env.port||4002,function(){
