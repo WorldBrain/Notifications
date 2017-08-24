@@ -12,8 +12,9 @@ export default class NotifView extends React.Component {
 
   componentDidMount() {
     //calls fetch function passing in url of api
-    fetch('https://safe-bastion-45672.herokuapp.com/api/notifications', {mode:'cors'})
-    .then(response => response.json()) //transform data into json
+    let url = "https://safe-bastion-45672.herokuapp.com/api/notifications"
+    fetch(url).then(response => response.json()) //transform data into json
+    .then(response => console.log(response))
     .then(notifications => this.setState(() => ({ notifications: notifications.reverse() })))
     .catch(error => console.log(error));
   }

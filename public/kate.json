@@ -1,0 +1,1220 @@
+{
+    "name": "kate stahnke",
+    "profile_name": "kate",
+    "profile_url": "https://teamtreehouse.com/kate",
+    "gravatar_url": "https://secure.gravatar.com/avatar/bd4e72605087979bd80c715f874a905a?s=400\u0026d=https%3A%2F%2Fstatic.teamtreehouse.com%2Fassets%2Fcontent%2Fdefault_avatar-ea7cf6abde4eec089a4e03cc925d0e893e428b2b6971b12405a9b118c837eaa2.png\u0026r=pg",
+    "gravatar_hash": "bd4e72605087979bd80c715f874a905a",
+    "badges": [
+    {
+        "id": 49,
+        "name": "Newbie",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/Generic_Newbie.png",
+        "earned_date": "2012-01-16T00:54:51.000Z",
+        "courses": []
+    },
+    {
+        "id": 26,
+        "name": "Introduction",
+        "url": "https://teamtreehouse.com/library/html/introduction",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Basics.png",
+        "earned_date": "2012-01-27T06:47:09.000Z",
+        "courses": [
+        {
+            "title": "HTML",
+            "url": "https://teamtreehouse.com/library/html",
+            "badge_count": 1
+        },
+        {
+            "title": "Introduction",
+            "url": "https://teamtreehouse.com/library/html/introduction",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 28,
+        "name": "Text",
+        "url": "https://teamtreehouse.com/library/html/text",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Text.png",
+        "earned_date": "2012-02-25T04:24:22.000Z",
+        "courses": [
+        {
+            "title": "HTML",
+            "url": "https://teamtreehouse.com/library/html",
+            "badge_count": 1
+        },
+        {
+            "title": "Text",
+            "url": "https://teamtreehouse.com/library/html/text",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 27,
+        "name": "Lists",
+        "url": "https://teamtreehouse.com/library/html/lists",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Lists.png",
+        "earned_date": "2012-02-25T23:06:23.000Z",
+        "courses": [
+        {
+            "title": "HTML",
+            "url": "https://teamtreehouse.com/library/html",
+            "badge_count": 1
+        },
+        {
+            "title": "Lists",
+            "url": "https://teamtreehouse.com/library/html/lists",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 33,
+        "name": "List Challenge",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Lists_CC.png",
+        "earned_date": "2012-02-25T23:11:17.000Z",
+        "courses": []
+    },
+    {
+        "id": 81,
+        "name": "Links",
+        "url": "https://teamtreehouse.com/library/html/links",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Links.png",
+        "earned_date": "2012-02-25T23:19:32.000Z",
+        "courses": [
+        {
+            "title": "HTML",
+            "url": "https://teamtreehouse.com/library/html",
+            "badge_count": 1
+        },
+        {
+            "title": "Links",
+            "url": "https://teamtreehouse.com/library/html/links",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 77,
+        "name": "Objects",
+        "url": "https://teamtreehouse.com/library/html/objects",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Objects.png",
+        "earned_date": "2012-02-25T23:54:22.000Z",
+        "courses": [
+        {
+            "title": "HTML",
+            "url": "https://teamtreehouse.com/library/html",
+            "badge_count": 1
+        },
+        {
+            "title": "Objects",
+            "url": "https://teamtreehouse.com/library/html/objects",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 38,
+        "name": "Tables",
+        "url": "https://teamtreehouse.com/library/html/tables",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Tables.png",
+        "earned_date": "2012-02-25T23:57:31.000Z",
+        "courses": [
+        {
+            "title": "HTML",
+            "url": "https://teamtreehouse.com/library/html",
+            "badge_count": 1
+        },
+        {
+            "title": "Tables",
+            "url": "https://teamtreehouse.com/library/html/tables",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 70,
+        "name": "Tables Challenge",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Tables_CC.png",
+        "earned_date": "2012-02-26T00:01:29.000Z",
+        "courses": []
+    },
+    {
+        "id": 29,
+        "name": "Forms",
+        "url": "https://teamtreehouse.com/library/html/forms",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Forms.png",
+        "earned_date": "2012-02-26T01:18:09.000Z",
+        "courses": [
+        {
+            "title": "HTML",
+            "url": "https://teamtreehouse.com/library/html",
+            "badge_count": 1
+        },
+        {
+            "title": "Forms",
+            "url": "https://teamtreehouse.com/library/html/forms",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 56,
+        "name": "HTML Master",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML_Master.png",
+        "earned_date": "2012-02-26T01:24:49.000Z",
+        "courses": []
+    },
+    {
+        "id": 60,
+        "name": "HTML",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML.png",
+        "earned_date": "2012-02-26T01:24:49.000Z",
+        "courses": []
+    },
+    {
+        "id": 3,
+        "name": "Introduction",
+        "url": "https://teamtreehouse.com/library/css-foundations-version-1/introduction",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS_Introduction.png",
+        "earned_date": "2012-02-26T02:32:38.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations - Version 1",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1",
+            "badge_count": 1
+        },
+        {
+            "title": "Introduction",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1/introduction",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 13,
+        "name": "Selectors",
+        "url": "https://teamtreehouse.com/library/css-foundations-version-1/selectors",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_CSS_Stage2.png",
+        "earned_date": "2012-02-26T02:58:19.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations - Version 1",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1",
+            "badge_count": 1
+        },
+        {
+            "title": "Selectors",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1/selectors",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 57,
+        "name": "Selector Code Challenge",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS_Selectors_CC.png",
+        "earned_date": "2012-02-26T03:16:29.000Z",
+        "courses": []
+    },
+    {
+        "id": 17,
+        "name": "Data Types",
+        "url": "https://teamtreehouse.com/library/css-foundations-version-1/data-types",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS_Data_Types.png",
+        "earned_date": "2012-02-26T05:22:30.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations - Version 1",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1",
+            "badge_count": 1
+        },
+        {
+            "title": "Data Types",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1/data-types",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 20,
+        "name": "Text",
+        "url": "https://teamtreehouse.com/library/css-foundations-version-1/text",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS_Text.png",
+        "earned_date": "2012-02-26T05:50:09.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations - Version 1",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1",
+            "badge_count": 1
+        },
+        {
+            "title": "Text",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1/text",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 58,
+        "name": "Text Code Challenge",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS_Text_CC.png",
+        "earned_date": "2012-02-26T06:51:23.000Z",
+        "courses": []
+    },
+    {
+        "id": 16,
+        "name": "Box Model",
+        "url": "https://teamtreehouse.com/library/css-foundations-version-1/the-box-model",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_CSS_Stage6.png",
+        "earned_date": "2012-02-26T07:46:00.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations - Version 1",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1",
+            "badge_count": 1
+        },
+        {
+            "title": "The Box Model",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1/the-box-model",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 18,
+        "name": "Page Layout",
+        "url": "https://teamtreehouse.com/library/css-foundations-version-1/page-layout",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS_Page_Layout.png",
+        "earned_date": "2012-02-29T07:47:39.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations - Version 1",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1",
+            "badge_count": 1
+        },
+        {
+            "title": "Page Layout",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1/page-layout",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 30,
+        "name": "Printing",
+        "url": "https://teamtreehouse.com/library/css-foundations-version-1/printing",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS_Print_Stylesheet.png",
+        "earned_date": "2012-03-03T07:51:47.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations - Version 1",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1",
+            "badge_count": 1
+        },
+        {
+            "title": "Printing",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1/printing",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 32,
+        "name": "Framework Foundations",
+        "url": "https://teamtreehouse.com/library/css-foundations-version-1/framework-foundations",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS_Frameworks_Foundation.png",
+        "earned_date": "2012-03-03T08:32:30.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations - Version 1",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1",
+            "badge_count": 1
+        },
+        {
+            "title": "Framework Foundations",
+            "url": "https://teamtreehouse.com/library/css-foundations-version-1/framework-foundations",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 73,
+        "name": "Mastery Challenge",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS_Master.png",
+        "earned_date": "2012-03-10T23:56:12.000Z",
+        "courses": []
+    },
+    {
+        "id": 47,
+        "name": "CSS",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS.png",
+        "earned_date": "2012-03-10T23:56:12.000Z",
+        "courses": []
+    },
+    {
+        "id": 72,
+        "name": "Website Basics",
+        "url": "https://teamtreehouse.com/library/website-basics/website-basics",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_WebsiteIsland1_Stage1.png",
+        "earned_date": "2012-03-11T00:15:47.000Z",
+        "courses": [
+        {
+            "title": "Website Basics",
+            "url": "https://teamtreehouse.com/library/website-basics",
+            "badge_count": 1
+        },
+        {
+            "title": "Website Basics",
+            "url": "https://teamtreehouse.com/library/website-basics/website-basics",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 48,
+        "name": "Elements",
+        "url": "https://teamtreehouse.com/library/aesthetic-foundations/elements",
+        "icon_url": "https://achievement-images.teamtreehouse.com/Aesthetic_Elements.png",
+        "earned_date": "2012-03-11T01:54:19.000Z",
+        "courses": [
+        {
+            "title": "Aesthetic Foundations",
+            "url": "https://teamtreehouse.com/library/aesthetic-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Elements",
+            "url": "https://teamtreehouse.com/library/aesthetic-foundations/elements",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 36,
+        "name": "Principles",
+        "url": "https://teamtreehouse.com/library/aesthetic-foundations/principles",
+        "icon_url": "https://achievement-images.teamtreehouse.com/Aesthetic_Principles.png",
+        "earned_date": "2012-03-11T02:33:58.000Z",
+        "courses": [
+        {
+            "title": "Aesthetic Foundations",
+            "url": "https://teamtreehouse.com/library/aesthetic-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Principles",
+            "url": "https://teamtreehouse.com/library/aesthetic-foundations/principles",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 42,
+        "name": "Color Theory",
+        "url": "https://teamtreehouse.com/library/aesthetic-foundations/color-theory",
+        "icon_url": "https://achievement-images.teamtreehouse.com/Aesthetic_Color_Theory.png",
+        "earned_date": "2012-03-11T03:05:07.000Z",
+        "courses": [
+        {
+            "title": "Aesthetic Foundations",
+            "url": "https://teamtreehouse.com/library/aesthetic-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Color Theory",
+            "url": "https://teamtreehouse.com/library/aesthetic-foundations/color-theory",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 71,
+        "name": "Aesthetic Foundations",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/Aesthetic.png",
+        "earned_date": "2012-03-11T03:05:07.000Z",
+        "courses": []
+    },
+    {
+        "id": 44,
+        "name": "Basics",
+        "url": "https://teamtreehouse.com/library/html5-foundations/basics",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML5_New_Tags.png",
+        "earned_date": "2012-03-11T04:17:29.000Z",
+        "courses": [
+        {
+            "title": "HTML5 Foundations",
+            "url": "https://teamtreehouse.com/library/html5-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Basics",
+            "url": "https://teamtreehouse.com/library/html5-foundations/basics",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 40,
+        "name": "Video",
+        "url": "https://teamtreehouse.com/library/html5-foundations/video",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML5_Video.png",
+        "earned_date": "2012-03-31T05:29:14.000Z",
+        "courses": [
+        {
+            "title": "HTML5 Foundations",
+            "url": "https://teamtreehouse.com/library/html5-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Video",
+            "url": "https://teamtreehouse.com/library/html5-foundations/video",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 59,
+        "name": "HTML5",
+        "url": "https://teamtreehouse.com/kate",
+        "icon_url": "https://achievement-images.teamtreehouse.com/HTML5.png",
+        "earned_date": "2012-03-31T05:29:14.000Z",
+        "courses": []
+    },
+    {
+        "id": 22,
+        "name": "Selectors",
+        "url": "https://teamtreehouse.com/library/css3/selectors",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS3_Selectors.png",
+        "earned_date": "2012-04-01T01:22:58.000Z",
+        "courses": [
+        {
+            "title": "CSS3",
+            "url": "https://teamtreehouse.com/library/css3",
+            "badge_count": 1
+        },
+        {
+            "title": "Selectors",
+            "url": "https://teamtreehouse.com/library/css3/selectors",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 31,
+        "name": "Typography",
+        "url": "https://teamtreehouse.com/library/css3/typography",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_CSS_Stage8.png",
+        "earned_date": "2012-04-01T20:46:24.000Z",
+        "courses": [
+        {
+            "title": "CSS3",
+            "url": "https://teamtreehouse.com/library/css3",
+            "badge_count": 1
+        },
+        {
+            "title": "Typography",
+            "url": "https://teamtreehouse.com/library/css3/typography",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 52,
+        "name": "Borders",
+        "url": "https://teamtreehouse.com/library/css3/borders",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS3_Borders.png",
+        "earned_date": "2012-04-25T06:23:41.000Z",
+        "courses": [
+        {
+            "title": "CSS3",
+            "url": "https://teamtreehouse.com/library/css3",
+            "badge_count": 1
+        },
+        {
+            "title": "Borders",
+            "url": "https://teamtreehouse.com/library/css3/borders",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 61,
+        "name": "Web Fonts",
+        "url": "https://teamtreehouse.com/library/css3/web-fonts",
+        "icon_url": "https://achievement-images.teamtreehouse.com/CSS3_WebFonts.png",
+        "earned_date": "2012-05-19T04:58:01.000Z",
+        "courses": [
+        {
+            "title": "CSS3",
+            "url": "https://teamtreehouse.com/library/css3",
+            "badge_count": 1
+        },
+        {
+            "title": "Web Fonts",
+            "url": "https://teamtreehouse.com/library/css3/web-fonts",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 103,
+        "name": "Introduction Variables",
+        "url": "https://teamtreehouse.com/library/javascript-foundations/variables",
+        "icon_url": "https://achievement-images.teamtreehouse.com/JS_var.png",
+        "earned_date": "2013-01-21T06:55:56.000Z",
+        "courses": [
+        {
+            "title": "JavaScript Foundations",
+            "url": "https://teamtreehouse.com/library/javascript-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Variables",
+            "url": "https://teamtreehouse.com/library/javascript-foundations/variables",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 114,
+        "name": "JavaScript Strings",
+        "url": "https://teamtreehouse.com/library/javascript-foundations/strings",
+        "icon_url": "https://achievement-images.teamtreehouse.com/JS_Strings1.png",
+        "earned_date": "2014-03-26T04:51:50.000Z",
+        "courses": [
+        {
+            "title": "JavaScript Foundations",
+            "url": "https://teamtreehouse.com/library/javascript-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Strings",
+            "url": "https://teamtreehouse.com/library/javascript-foundations/strings",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 117,
+        "name": "JavaScript Numbers",
+        "url": "https://teamtreehouse.com/library/javascript-foundations/numbers",
+        "icon_url": "https://achievement-images.teamtreehouse.com/JS_Numbers.png",
+        "earned_date": "2014-03-26T22:55:56.000Z",
+        "courses": [
+        {
+            "title": "JavaScript Foundations",
+            "url": "https://teamtreehouse.com/library/javascript-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Numbers",
+            "url": "https://teamtreehouse.com/library/javascript-foundations/numbers",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 151,
+        "name": "JavaScript Arrays",
+        "url": "https://teamtreehouse.com/library/javascript-foundations/arrays",
+        "icon_url": "https://achievement-images.teamtreehouse.com/JS_Arrays.png",
+        "earned_date": "2014-03-27T01:53:28.000Z",
+        "courses": [
+        {
+            "title": "JavaScript Foundations",
+            "url": "https://teamtreehouse.com/library/javascript-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Arrays",
+            "url": "https://teamtreehouse.com/library/javascript-foundations/arrays",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 152,
+        "name": "JavaScript Functions",
+        "url": "https://teamtreehouse.com/library/javascript-foundations/functions",
+        "icon_url": "https://achievement-images.teamtreehouse.com/JS_Functions.png",
+        "earned_date": "2014-03-27T04:46:54.000Z",
+        "courses": [
+        {
+            "title": "JavaScript Foundations",
+            "url": "https://teamtreehouse.com/library/javascript-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Functions",
+            "url": "https://teamtreehouse.com/library/javascript-foundations/functions",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 153,
+        "name": "JavaScript Objects",
+        "url": "https://teamtreehouse.com/library/javascript-foundations/objects",
+        "icon_url": "https://achievement-images.teamtreehouse.com/JS_Objects.png",
+        "earned_date": "2014-03-29T05:34:49.000Z",
+        "courses": [
+        {
+            "title": "JavaScript Foundations",
+            "url": "https://teamtreehouse.com/library/javascript-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Objects",
+            "url": "https://teamtreehouse.com/library/javascript-foundations/objects",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 912,
+        "name": "Beginning HTML and CSS",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage01.png",
+        "earned_date": "2014-04-12T23:48:29.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "Beginning HTML and CSS",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/beginning-html-and-css",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 922,
+        "name": "HTML First",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/html-first",
+        "icon_url": "https://achievement-images.teamtreehouse.com/bagdes_html_howtobuildawebsite_stage02.png",
+        "earned_date": "2014-04-13T00:14:37.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "HTML First",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/html-first",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 76,
+        "name": "Basics",
+        "url": "https://teamtreehouse.com/library/introduction-to-programming/basics",
+        "icon_url": "https://achievement-images.teamtreehouse.com/Intro_Programming_Basics.png",
+        "earned_date": "2014-04-13T02:40:33.000Z",
+        "courses": [
+        {
+            "title": "Introduction to Programming",
+            "url": "https://teamtreehouse.com/library/introduction-to-programming",
+            "badge_count": 1
+        },
+        {
+            "title": "Basics",
+            "url": "https://teamtreehouse.com/library/introduction-to-programming/basics",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 78,
+        "name": "Control Structures",
+        "url": "https://teamtreehouse.com/library/introduction-to-programming/control-structures",
+        "icon_url": "https://achievement-images.teamtreehouse.com/Intro_Programming_ControlStructures.png",
+        "earned_date": "2014-04-13T02:42:39.000Z",
+        "courses": [
+        {
+            "title": "Introduction to Programming",
+            "url": "https://teamtreehouse.com/library/introduction-to-programming",
+            "badge_count": 1
+        },
+        {
+            "title": "Control Structures",
+            "url": "https://teamtreehouse.com/library/introduction-to-programming/control-structures",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 80,
+        "name": "Objects and Arrays",
+        "url": "https://teamtreehouse.com/library/introduction-to-programming/objects-and-arrays",
+        "icon_url": "https://achievement-images.teamtreehouse.com/Intro_Programming_ObjectsArrays.png",
+        "earned_date": "2014-04-13T02:58:35.000Z",
+        "courses": [
+        {
+            "title": "Introduction to Programming",
+            "url": "https://teamtreehouse.com/library/introduction-to-programming",
+            "badge_count": 1
+        },
+        {
+            "title": "Objects and Arrays",
+            "url": "https://teamtreehouse.com/library/introduction-to-programming/objects-and-arrays",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 79,
+        "name": "Functions",
+        "url": "https://teamtreehouse.com/library/introduction-to-programming/functions",
+        "icon_url": "https://achievement-images.teamtreehouse.com/Intro_Programming_Functions.png",
+        "earned_date": "2014-04-13T02:59:51.000Z",
+        "courses": [
+        {
+            "title": "Introduction to Programming",
+            "url": "https://teamtreehouse.com/library/introduction-to-programming",
+            "badge_count": 1
+        },
+        {
+            "title": "Functions",
+            "url": "https://teamtreehouse.com/library/introduction-to-programming/functions",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 932,
+        "name": "Creating HTML Content",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/creating-html-content",
+        "icon_url": "https://achievement-images.teamtreehouse.com/bagdes_html_howtobuildawebsite_stage03.png",
+        "earned_date": "2014-04-13T03:19:53.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "Creating HTML Content",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/creating-html-content",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 942,
+        "name": "CSS: Cascading Style Sheets",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/css-cascading-style-sheets",
+        "icon_url": "https://achievement-images.teamtreehouse.com/bagdes_html_howtobuildawebsite_stage04.png",
+        "earned_date": "2014-04-13T03:36:58.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "CSS: Cascading Style Sheets",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/css-cascading-style-sheets",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 992,
+        "name": "Sharing a Website",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/sharing-a-website",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage09.png",
+        "earned_date": "2014-04-13T03:38:40.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "Sharing a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/sharing-a-website",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 1002,
+        "name": "Debugging HTML and CSS Problems",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/debugging-html-and-css-problems",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage10.png",
+        "earned_date": "2014-04-13T03:39:46.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "Debugging HTML and CSS Problems",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/debugging-html-and-css-problems",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 962,
+        "name": "Styling Web Pages and Navigation",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/styling-web-pages-and-navigation",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage06.png",
+        "earned_date": "2014-04-13T05:37:27.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "Styling Web Pages and Navigation",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/styling-web-pages-and-navigation",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 952,
+        "name": "Customizing Colors and Fonts",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/customizing-colors-and-fonts",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage05.png",
+        "earned_date": "2014-04-13T05:55:26.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "Customizing Colors and Fonts",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/customizing-colors-and-fonts",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 972,
+        "name": "Adding Pages to a Website",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/adding-pages-to-a-website",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage07.png",
+        "earned_date": "2014-04-13T06:33:32.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "Adding Pages to a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/adding-pages-to-a-website",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 982,
+        "name": "Responsive Web Design and Testing",
+        "url": "https://teamtreehouse.com/library/how-to-make-a-website/responsive-web-design-and-testing",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_html_howtomakeawebsite_stage08.png",
+        "earned_date": "2014-04-13T07:36:17.000Z",
+        "courses": [
+        {
+            "title": "How to Make a Website",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website",
+            "badge_count": 1
+        },
+        {
+            "title": "Responsive Web Design and Testing",
+            "url": "https://teamtreehouse.com/library/how-to-make-a-website/responsive-web-design-and-testing",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 812,
+        "name": "Introduction to jQuery",
+        "url": "https://teamtreehouse.com/library/jquery-basics/introduction-to-jquery",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage1.png",
+        "earned_date": "2014-04-19T00:45:05.000Z",
+        "courses": [
+        {
+            "title": "jQuery Basics",
+            "url": "https://teamtreehouse.com/library/jquery-basics",
+            "badge_count": 1
+        },
+        {
+            "title": "Introduction to jQuery",
+            "url": "https://teamtreehouse.com/library/jquery-basics/introduction-to-jquery",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 822,
+        "name": "Creating a Spoiler Revealer",
+        "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-spoiler-revealer",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage2.png",
+        "earned_date": "2014-04-19T02:13:35.000Z",
+        "courses": [
+        {
+            "title": "jQuery Basics",
+            "url": "https://teamtreehouse.com/library/jquery-basics",
+            "badge_count": 1
+        },
+        {
+            "title": "Creating a Spoiler Revealer",
+            "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-spoiler-revealer",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 832,
+        "name": "Creating a Simple Lightbox",
+        "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-simple-lightbox",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage3.png",
+        "earned_date": "2014-04-24T02:07:12.000Z",
+        "courses": [
+        {
+            "title": "jQuery Basics",
+            "url": "https://teamtreehouse.com/library/jquery-basics",
+            "badge_count": 1
+        },
+        {
+            "title": "Creating a Simple Lightbox",
+            "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-simple-lightbox",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 842,
+        "name": "Creating a Mobile Drop Down Menu",
+        "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-mobile-drop-down-menu",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage4.png",
+        "earned_date": "2014-04-26T23:26:09.000Z",
+        "courses": [
+        {
+            "title": "jQuery Basics",
+            "url": "https://teamtreehouse.com/library/jquery-basics",
+            "badge_count": 1
+        },
+        {
+            "title": "Creating a Mobile Drop Down Menu",
+            "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-mobile-drop-down-menu",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 852,
+        "name": "Creating a Password Confirmation Form",
+        "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-password-confirmation-form",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage5.png",
+        "earned_date": "2014-04-27T05:58:41.000Z",
+        "courses": [
+        {
+            "title": "jQuery Basics",
+            "url": "https://teamtreehouse.com/library/jquery-basics",
+            "badge_count": 1
+        },
+        {
+            "title": "Creating a Password Confirmation Form",
+            "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-password-confirmation-form",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 862,
+        "name": "Creating a Simple Drawing Application",
+        "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-simple-drawing-application",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage6.png",
+        "earned_date": "2014-04-27T07:57:55.000Z",
+        "courses": [
+        {
+            "title": "jQuery Basics",
+            "url": "https://teamtreehouse.com/library/jquery-basics",
+            "badge_count": 1
+        },
+        {
+            "title": "Creating a Simple Drawing Application",
+            "url": "https://teamtreehouse.com/library/jquery-basics/creating-a-simple-drawing-application",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 255,
+        "name": "Moving Around in the Console",
+        "url": "https://teamtreehouse.com/library/console-foundations/getting-started-with-the-console",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_Console_Stage1.png",
+        "earned_date": "2014-06-01T05:33:01.000Z",
+        "courses": [
+        {
+            "title": "Console Foundations",
+            "url": "https://teamtreehouse.com/library/console-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Getting Started with the Console",
+            "url": "https://teamtreehouse.com/library/console-foundations/getting-started-with-the-console",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 271,
+        "name": "Console Users and Permission",
+        "url": "https://teamtreehouse.com/library/console-foundations/users-and-permissions",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_Console_Stage2.png",
+        "earned_date": "2014-06-01T06:18:09.000Z",
+        "courses": [
+        {
+            "title": "Console Foundations",
+            "url": "https://teamtreehouse.com/library/console-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Users and Permissions",
+            "url": "https://teamtreehouse.com/library/console-foundations/users-and-permissions",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 285,
+        "name": "Console Processes",
+        "url": "https://teamtreehouse.com/library/console-foundations/processes",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_Console_Stage3.png",
+        "earned_date": "2014-06-01T19:59:14.000Z",
+        "courses": [
+        {
+            "title": "Console Foundations",
+            "url": "https://teamtreehouse.com/library/console-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Processes",
+            "url": "https://teamtreehouse.com/library/console-foundations/processes",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 296,
+        "name": "Environment and Redirection",
+        "url": "https://teamtreehouse.com/library/console-foundations/environment-and-redirection",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_Console_Stage4.png",
+        "earned_date": "2014-06-02T03:57:12.000Z",
+        "courses": [
+        {
+            "title": "Console Foundations",
+            "url": "https://teamtreehouse.com/library/console-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Environment and Redirection",
+            "url": "https://teamtreehouse.com/library/console-foundations/environment-and-redirection",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 328,
+        "name": "Installing Programs",
+        "url": "https://teamtreehouse.com/library/console-foundations/installing-software",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_Console_Stage5.png",
+        "earned_date": "2014-06-02T04:30:30.000Z",
+        "courses": [
+        {
+            "title": "Console Foundations",
+            "url": "https://teamtreehouse.com/library/console-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Installing Software",
+            "url": "https://teamtreehouse.com/library/console-foundations/installing-software",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 180,
+        "name": "Getting Started with CSS",
+        "url": "https://teamtreehouse.com/library/css-foundations/getting-started-with-css",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_CSS_Stage1.png",
+        "earned_date": "2014-06-02T04:42:04.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations",
+            "url": "https://teamtreehouse.com/library/css-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Getting Started with CSS",
+            "url": "https://teamtreehouse.com/library/css-foundations/getting-started-with-css",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 181,
+        "name": "Selectors",
+        "url": "https://teamtreehouse.com/library/css-foundations/selectors",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_CSS_Stage2.png",
+        "earned_date": "2014-06-21T22:28:16.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations",
+            "url": "https://teamtreehouse.com/library/css-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Selectors",
+            "url": "https://teamtreehouse.com/library/css-foundations/selectors",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 182,
+        "name": "Advanced Selectors",
+        "url": "https://teamtreehouse.com/library/css-foundations/advanced-selectors",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_CSS_Stage3.png",
+        "earned_date": "2014-08-06T05:22:59.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations",
+            "url": "https://teamtreehouse.com/library/css-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Advanced Selectors",
+            "url": "https://teamtreehouse.com/library/css-foundations/advanced-selectors",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 184,
+        "name": "Values and Units",
+        "url": "https://teamtreehouse.com/library/css-foundations/values-and-units",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_CSS_Stage4.png",
+        "earned_date": "2014-08-09T06:56:12.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations",
+            "url": "https://teamtreehouse.com/library/css-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "Values and Units",
+            "url": "https://teamtreehouse.com/library/css-foundations/values-and-units",
+            "badge_count": 1
+        }]
+    },
+    {
+        "id": 201,
+        "name": "CSS Box Model",
+        "url": "https://teamtreehouse.com/library/css-foundations/the-box-model",
+        "icon_url": "https://achievement-images.teamtreehouse.com/badges_DD_CSS_Stage6.png",
+        "earned_date": "2014-08-09T07:52:20.000Z",
+        "courses": [
+        {
+            "title": "CSS Foundations",
+            "url": "https://teamtreehouse.com/library/css-foundations",
+            "badge_count": 1
+        },
+        {
+            "title": "The Box Model",
+            "url": "https://teamtreehouse.com/library/css-foundations/the-box-model",
+            "badge_count": 1
+        }]
+    }],
+    "points":
+    {
+        "total": 4839,
+        "HTML": 757,
+        "CSS": 1351,
+        "Design": 108,
+        "JavaScript": 1048,
+        "Ruby": 0,
+        "PHP": 0,
+        "WordPress": 0,
+        "iOS": 2,
+        "Android": 0,
+        "Development Tools": 318,
+        "Business": 0,
+        "Python": 0,
+        "Java": 0,
+        "Digital Literacy": 0,
+        "Game Development": 0,
+        "C#": 0,
+        "Databases": 0,
+        "Virtual Reality": 0,
+        "Data Analysis": 0,
+        "APIs": 0,
+        "Security": 0,
+        "Go": 0
+    }
+}

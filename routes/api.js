@@ -24,6 +24,7 @@ router.post('/notifications',function(req,res,next){
 router.put('/notifications/:id',function(req,res,next){
   Notification.findByIdAndUpdate({_id:req.params.id},req.body).then(function(){
     Notification.findOne({_id:req.params.id}).then(function(notification){
+      console.log('what is happening');
       res.send(notification);
     });
   })
