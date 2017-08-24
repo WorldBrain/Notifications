@@ -35,32 +35,32 @@
 // });
 
 //Access form element
-var form = document.getElementById('notif-form');
-
-form.addEventListener("submit", function(event) {
-  event.preventDefault();
-  var formData = {
-    title: document.getElementById('title').value
-    body: document.getElementById('body').value
-  }
-
-  function createNotif() {
-    fetch('http://localhost:4002/api/notifications', {
-      method: 'post',
-      body: JSON.stringify(formData),
-      headers: {
-        'accept': 'application/json',
-        'Content-Type': 'application/json'
-      }
-    }).then(function(response) {
-      return response.json() {
-        console.log('parsed json', json);
-      }
-    }).catch(function(err) {
-      console.log('create json failed', err);
-    });
-  }
-})
+// var form = document.getElementById('notif-form');
+//
+// form.addEventListener("submit", function(event) {
+//   event.preventDefault();
+//   var formData = {
+//     title: document.getElementById('title').value
+//     body: document.getElementById('body').value
+//   }
+//
+//   function createNotif() {
+//     fetch('http://localhost:4002/api/notifications', {
+//       method: 'post',
+//       body: JSON.stringify(formData),
+//       headers: {
+//         'accept': 'application/json',
+//         'Content-Type': 'application/json'
+//       }
+//     }).then(function(response) {
+//       return response.json() {
+//         console.log('parsed json', json);
+//       }
+//     }).catch(function(err) {
+//       console.log('create json failed', err);
+//     });
+//   }
+// })
 //   function submitNotif() {
 //     var content = document.querySelector('textarea').value;
 //     if (content) {
