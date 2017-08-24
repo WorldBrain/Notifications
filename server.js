@@ -34,7 +34,7 @@ mongoose.connect(mongouri, function (err, res) {
   if (err) {
     console.log('unable to connect to mongodb server', err);
   } else {
-    console.log('connection established to', url);
+    console.log('connection established to', mongouri);
   }
 });
 
@@ -42,16 +42,19 @@ mongoose.Promise = global.Promise;
 
 //use body-parser middleware to look for JSON data in request body
 app.use(bodyParser.json());
+  console.log('meow');
 
 //initialize routes
 app.use('/api', require('./routes/api'));
+  console.log('ruff');
 
 //error handling middleware
 app.use(function(err,req,res,next){
   console.log(err);
   res.status(422).send({error:err.message});
-})
+});
 
+  console.log('bla');
 
 //initialize the app
 app.listen(process.env.port||4002,function(){
