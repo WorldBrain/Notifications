@@ -13,32 +13,21 @@ const corsOptions = {
   methods: ['GET', 'POST']
 };
 
-//mongoose setting socket options with recommended 30 sec connection timeout
-// var options = { server: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000} },
-//                 replset: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } } };
+//setting mongodb URI
+var mongouri = process.env.MONGO_URI
+  || 'mongodb://localhost/wbnotification'; // TODO remove me
 
-
-//setting mongodb URI recieved from mLab
-var mongouri = process.env.MONGO_URI;
-
-// var mongouri = process.env.MONGO_URI
-//   || 'mongodb://localhost/wbnotification'; // TODO remove me
+// TODO run `heroku config:set MONGO_URI=mongodb://something.`mlab`
+// after the db has been created
 
 app.use(express.static('./public'));
 
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions))
 
-// use connect method to connect to server
-mongoose.connect(mongouri, function (err, res) {
-  if (err) {
-    console.log('unable to connect to mongodb server', err);
-  } else {
-    console.log('connection established to', mongouri);
-  }
-});
-
+//connect to mongodb
 mongoose.Promise = global.Promise;
+mongoose.connect(mongouri);
 
 //use body-parser middleware to look for JSON data in request body
 app.use(bodyParser.json());
@@ -50,11 +39,10 @@ app.use('/api', require('./routes/api'));
 app.use(function(err,req,res,next){
   console.log(err);
   res.status(422).send({error:err.message});
-});
+})
 
-console.log('middleware works');
 
-//initialize the app
+
 app.listen(process.env.port||4002,function(){
   console.log('now listening for requests');
 });
