@@ -14,16 +14,17 @@ const corsOptions = {
   methods: ['GET', 'POST']
 };
 
-//setting mongodb URI
+//setting mongodb URI depending on production or development environment
 const mongouri = process.env.PROD_MONGODB
   || 'mongodb://localhost/wbnotification'; // TODO remove me
 
+//Tell express which files to serve based on running environment
 app.use(express.static(process.env.NODE_ENV === 'production' ? './build' : './public'));
 
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions))
 
-//connect to mongodb
+//set up mongoose and db connection
 mongoose.Promise = global.Promise;
 mongoose.connect(mongouri);
 
