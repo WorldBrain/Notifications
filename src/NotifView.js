@@ -2,7 +2,11 @@ import React from 'react';
 import NotifForm from './NotifForm';
 import NotifList from './NotifList';
 
+//define env var that specifies path for fetch api based on the production or dev environment
 const API_BASE_URL = process.env.REACT_APP_API === 'development' ? '//localhost:4002' : '';
+console.log('You are running this app in {process.env.NODE_ENV}', process.env.NODE_ENV);
+console.log('You are running this app in {process.env}', process.env);
+
 
 export default class NotifView extends React.Component {
   constructor(props) {
@@ -11,8 +15,8 @@ export default class NotifView extends React.Component {
   }
 
   componentDidMount() {
-    //calls fetch function passing in url of api
-    fetch(`${API_BASE_URL}/api/notifications`, {mode:'cors'})
+    //calls fetch function passing in template literal with expression containing baseurl api path
+    fetch(`${API_BASE_URL}/api/notifications`, {mode:'cors'}) //allows cross-origin requests
     .then(response => response.json()) //transform data into json
     .then(notifications => this.setState(() => ({ notifications: notifications.reverse() })))
     .catch(error => console.log(error));
