@@ -18,9 +18,6 @@ const corsOptions = {
 const mongouri = process.env.PROD_MONGODB
   || 'mongodb://localhost/wbnotification'; // TODO remove me
 
-// TODO run `heroku config:set MONGO_URI=mongodb://something.`mlab`
-// after the db has been created
-
 app.use(express.static(process.env.NODE_ENV === 'production' ? './build' : './public'));
 
 app.use(cors(corsOptions));
