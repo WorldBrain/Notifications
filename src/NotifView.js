@@ -2,19 +2,18 @@ import React from 'react';
 import NotifForm from './NotifForm';
 import NotifList from './NotifList';
 
+const API_BASE_URL = process.env.REACT_APP_API === 'development' ? '//localhost:4002' : '';
+
 export default class NotifView extends React.Component {
   constructor(props) {
     super(props);
     this.state = { title: '', body:'', notification: [] };
   }
 
-  // const api_url = process.env.API_URL;
-
   componentDidMount() {
     //calls fetch function passing in url of api
-    let url = "https://safe-bastion-45672.herokuapp.com/api/notifications"
-    fetch(url).then(response => response.json()) //transform data into json
-    .then(response => console.log(response))
+    fetch(`${API_BASE_URL}/api/notifications`, {mode:'cors'})
+    .then(response => response.json()) //transform data into json
     .then(notifications => this.setState(() => ({ notifications: notifications.reverse() })))
     .catch(error => console.log(error));
   }
@@ -31,7 +30,7 @@ export default class NotifView extends React.Component {
       e.preventDefault();
       e.target.reset();
 
-      fetch('https://safe-bastion-45672.herokuapp.com/api/notifications', {
+      fetch(`${API_BASE_URL}/api/notifications`, {
         method: "POST",
         headers: {
           'Accept': 'application/json',
