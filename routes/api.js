@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const Notification = require('../model/notifications');
 
+
+//set the route path and initialize the API
 router.get('/notifications',function(req,res,next){
   Notification.find({}).then(function(notifications){
     res.send(notifications);

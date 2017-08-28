@@ -7,3 +7,9 @@ import NotifView from './NotifView';
 // ReactDOM.render(<Table />, document.getElementById('root1'));
 
 ReactDOM.render(<NotifView />, document.getElementById('root2'));
+
+// ReactDOM.render(
+//   <NotifView url='http://localhost:4002/api/notifications'
+//   pollInterval={2000} />,
+//   document.getElementById('root2')
+// );
