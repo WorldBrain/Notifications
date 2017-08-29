@@ -7,6 +7,7 @@
     "cors": "^2.8.4",
     "foreman": "^2.0.0",
     "mongoose": "^4.10.8",
+    "body-parser": "^1.17.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.10"
@@ -19,7 +20,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "body-parser": "^1.17.2",
+
     "express": "^4.15.4",
     "nodemon": "^1.11.0"
   }
