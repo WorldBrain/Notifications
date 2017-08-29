@@ -10,7 +10,10 @@
     "body-parser": "^1.17.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "nodemon": "^1.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,8 +23,5 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-
-    "express": "^4.15.4",
-    "nodemon": "^1.11.0"
   }
 }

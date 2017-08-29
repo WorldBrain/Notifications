@@ -14,6 +14,8 @@ export default class NotifView extends React.Component {
     this.state = { title: '', body:'', notification: [] };
   }
 
+
+  //fetch notifications after first mount
   componentDidMount() {
     //calls fetch function passing in template literal with expression containing baseurl api path
     fetch(`${API_BASE_URL}/api/notifications`, {mode:'cors'}) //allows cross-origin requests
