@@ -3,6 +3,7 @@ form {
   padding: 2em;
   border: 1px solid #ccc;
   border-radius: 1em;
+  background-color: #DEDBDA;
 }
 
 form div, div {
@@ -13,7 +14,7 @@ form div, div {
 
 label {
   display: inline-block;
-  width: 90px;
+  width: 200px;
   text-align: right;
 }
 
@@ -28,10 +29,11 @@ input:focus, textarea:focus {
   border-color: #000;
 }
 
-textarea {
+textarea, #bodytextid {
   vertical-align: top;
   height: 5em;
-  width: 700px;
+  min-width: 100%;
+  max-width: 100%;
 
 }
 

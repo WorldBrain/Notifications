@@ -1,0 +1,11 @@
+#header {
+  background-color: #2b2927;
+  /* This shows the background color */
+
+  margin-bottom: 81px;
+  /* This ensures that there is a margin of 81px between the header of other elements */
+
+  overflow: hidden;
+  /* Overflow hidden is used because we will be floating all children elements. */
+  padding: 2em;
+}

@@ -3,7 +3,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
-//allow requests for assets on the same-origin and other origins which return appropriate CORs headers
+//allow requests for assets on the same-origin and
+//other origins which return appropriate CORs headers
 const cors = require('cors');
 
 //define predetermined port number
@@ -19,7 +20,8 @@ const corsOptions = {
   methods: ['GET', 'POST']
 };
 
-//setting mongodb URI depending on production or development environment
+//setting mongodb URI depending on
+//production or development environment
 const mongouri = process.env.PROD_MONGODB
   || 'mongodb://localhost/wbnotification';
 
