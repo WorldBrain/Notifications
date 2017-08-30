@@ -18,9 +18,10 @@ export default class NotifView extends React.Component {
   //fetch notifications after first mount
   componentDidMount() {
     //calls fetch function passing in template literal with expression containing baseurl api path
-    fetch(`${API_BASE_URL}/api/notifications`, {mode:'cors'}) //allows cross-origin requests
+    fetch(`${API_BASE_URL}/api/notifications`, { mode:'cors' }) //allows cross-origin requests
     .then(response => response.json()) //transform data into json
-    .then(notifications => this.setState(() => ({ notifications: notifications.reverse() })))//calling .reverse to list notifs in reverse chronologic order
+    .then(notifications => this.setState(() =>
+      ({ notifications: notifications.reverse() })))//calling .reverse to list notifs in reverse chronologic order
     .catch(error => console.log(error));
   }
 
@@ -30,7 +31,8 @@ export default class NotifView extends React.Component {
         return {
           title: '',
           body: '',
-          notifications: [{ title, body, date: (new Date()).toISOString() }].concat(notifications),
+          notifications: [{ title, body, date:
+            (new Date()).toISOString() }].concat(notifications),
         };
       });
 
